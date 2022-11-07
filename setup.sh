@@ -6,6 +6,7 @@ pkg install figlet
 pkg install python
 pkg install python2
 pkg install python3
-ln -s /storage/emulated/0/
+chmod +x *
+mv xender  ../../usr/bin
 
-echo "\033[0;32m setup ready . now you run this command ::   ./xender.sh "
+echo "\033[0;32m setup ready . now you run this command :: cd &&  xender "
